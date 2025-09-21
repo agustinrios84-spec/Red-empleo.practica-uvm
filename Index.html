@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Red de Empleo con Valor</title>
+  <style>
+    /* Estilos básicos */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: #0078d7;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #0078d7;
+      text-align: center;
+    }
+    .hero {
+      background: #f0f8ff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+    .cta {
+      background: #0078d7;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+    .cta:hover {
+      background: #005a9e;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header>
+    <h1>Red de Empleo con Valor</h1>
+    <p>Inclusión laboral para personas con discapacidad y adultos mayores</p>
+    <nav>
+      <a href="#quienes">Quiénes somos</a>
+      <a href="#propuesta">Propuesta</a>
+      <a href="#impacto">Impacto</a>
+      <a href="#unete">Únete</a>
+    </nav>
+  </header>
+
+  <!-- Portada -->
+  <section class="hero">
+    <h1>Un espacio donde todos los talentos cuentan 💼✨</h1>
+    <p>Conectamos a personas con discapacidad y adultos mayores con empresas que valoran la diversidad.</p>
+    <a href="#unete" class="cta">Quiero unirme</a>
+  </section>
+
+  <!-- Quiénes somos -->
+  <section id="quienes">
+    <h2>Quiénes somos</h2>
+    <p>Somos una red que busca generar oportunidades laborales dignas y sostenibles para personas con discapacidad y adultos mayores. 
+    Creemos que la inclusión no es solo responsabilidad social, sino una oportunidad de crecer juntos.</p>
+  </section>
+
+  <!-- Propuesta -->
+  <section id="propuesta">
+    <h2>Nuestra propuesta</h2>
+    <ul>
+      <li>💼 Bolsa de trabajo inclusiva.</li>
+      <li>📚 Capacitación accesible.</li>
+      <li>🤝 Acompañamiento y mentoría.</li>
+      <li>🌍 Red de apoyo empresarial.</li>
+    </ul>
+  </section>
+
+  <!-- Impacto -->
+  <section id="impacto">
+    <h2>Impacto social</h2>
+    <p>Hasta ahora hemos logrado:</p>
+    <ul>
+      <li>+500 personas capacitadas.</li>
+      <li>+200 empleos generados.</li>
+      <li>+50 empresas aliadas.</li>
+    </ul>
+  </section>
+
+  <!-- Únete -->
+  <section id="unete">
+    <h2>Únete</h2>
+    <p>Queremos conocerte. Regístrate como candidato o como empresa y sé parte del cambio.</p>
+    <form action="https://formspree.io/f/tu-id" method="POST">
+      <label>Tu nombre:<br><input type="text" name="nombre" required></label><br><br>
+      <label>Tu correo:<br><input type="email" name="email" required></label><br><br>
+      <label>¿Eres empresa o candidato?<br>
+        <select name="rol" required>
+          <option value="candidato">Candidato</option>
+          <option value="empresa">Empresa</option>
+        </select>
+      </label><br><br>
+      <button type="submit" class="cta">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>© 2025 Red de Empleo con Valor | Inclusión laboral con propósito</p>
+  </footer>
+
+</body>
+</html>
